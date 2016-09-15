@@ -1,0 +1,245 @@
+<!doctype html>
+
+<!-- Thank you for taking the time to read the source :) -->
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blambo: Art</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/site.js.txt"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="w3.css">
+<link href="DesktopCSS.css" rel="stylesheet" type="text/css">
+<link href="MobileCSS.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<a href="index.html" class="navBarHome">
+	<img src="Images/homeIcon.svg" alt="Home"/>
+</a>
+<a href="final.html" class="navBarLogo">
+	<img src="Images/lamelogo5.png" height="100%" alt="Blambo"/>
+</a>
+<a href="contact.html" class="navBarContact"> 
+	<img src="Images/contactIcon.svg" alt="Contact"/>
+</a>
+
+
+
+<a href="fullArt.html" class="fullArtPanel">
+	<div class="fullSlides">
+		<img class = "fullSlide w3-animate-left" src="Images/fullIcon.svg" 
+        width="80%" height="40vh" alt="Full Art"
+        style="display: block; background-color: #ffa25a; padding: 10%;"/> 
+    	<img class="fullSlide w3-animate-left" 
+		src="Images/fullArt/Image0.jpg"  alt="">
+		<img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image1.jpg"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image2.png"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image3.jpg"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image4.png"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image5.jpg"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image6.png"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image7.jpg"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image8.jpg"  alt="">
+        <img class="fullSlide w3-animate-left" 
+        src="Images/fullArt/Image9.jpg"  alt="">
+	</div>
+    <div class="fullIcon">
+		<img src="Images/fullIcon.svg" 
+        width="100%" alt="Full Art"/>
+	</div>
+</a> 
+<script>
+$('.fullArtPanel').hover(function() {
+		$(this).find('.fullIcon').show();
+        $(this).find('.fullSlides').hide();
+    }, function() {
+    		$(this).find('.fullIcon').hide();
+        	$(this).find('.fullSlides').show();	
+		});
+</script>
+<script>
+var myIndex1 = 0;
+carousel1();
+function carousel1() {
+    var i1;
+    var x1 = document.getElementsByClassName("fullSlide");
+	for (i1 = 0; i1 < x1.length; i1++) {
+       x1[i1].style.display = "none";  
+    } myIndex1++;
+    if (myIndex1 > x1.length) {myIndex1 = 1;}    
+    x1[myIndex1-1].style.display = "block";  
+    setTimeout(carousel1, Math.floor((Math.random() * 6000) + 6001));    
+}
+</script>
+
+
+
+<a href="lineArt.html" class="lineArtPanel">
+	<div class="lineSlides">
+		
+		<img class = "lineSlide w3-animate-left" src="Images/lineIcon.svg" 
+        width="80%" height="40vh" alt="Line Art"
+        style="display: block; background-color: #ffa25a; padding: 10%;"/>
+		
+    	<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image5.png"  alt="">
+		<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image2.png"  alt="">
+        <img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image3.jpg"  alt="">
+        <img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image4.png"  alt="">
+        <img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image1.jpg"  alt="">
+		<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image6.jpg"  alt="">
+		<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image7.jpg"  alt="">
+		<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image8.jpg"  alt="">
+		<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image9.jpg"  alt="">
+		<img class="lineSlide w3-animate-left" 
+		src="Images/lineArt/Image0.jpg"  alt="">
+	</div>
+	<div class="lineIcon">
+		<img src="Images/lineIcon.svg" 
+        width="100%" alt="Line Art"/>
+	</div>
+</a> 
+<script>
+$('.lineArtPanel').hover(function() {
+		$(this).find('.lineIcon').show();
+        $(this).find('.lineSlides').hide();
+    }, function() {
+    	$(this).find('.lineIcon').hide();
+        $(this).find('.lineSlides').show();	
+		});
+</script>
+<script>
+var myIndex2 = 0;
+carousel2();
+function carousel2() {
+    var i2;
+    var x2 = document.getElementsByClassName("lineSlide");
+	for (i2 = 0; i2 < x2.length; i2++) {
+       x2[i2].style.display = "none";  
+    } myIndex2++;
+    if (myIndex2 > x2.length) {myIndex2 = 1;}    
+    x2[myIndex2-1].style.display = "block";  
+    setTimeout(carousel2, Math.floor((Math.random() * 6000) + 6001));    
+}
+</script>
+
+<a href="gameArt.html" class="gameArtPanel">
+	<div class="gameSlides">
+		
+		<img class = "gameSlide w3-animate-left" src="Images/gameIcon.svg" 
+        width="80%" height="40vh" alt="Game Art"
+        style="display: block; background-color: #ffa25a; padding: 10%;"/>
+		
+		<img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image1.gif" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image2.png" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image3.gif" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image4.png" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image5.gif" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image6.png" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image7.png" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image8.png" style="height:85vh" alt="">
+        <img class="gameSlide w3-animate-left" 
+		src="Images/gameArt/Image9.png" style="height:85vh" alt="">
+	</div>
+	<div class="gameIcon">
+		<img src="Images/gameIcon.svg" 
+        width="100%" alt="Game Art"/>
+	</div>
+</a> 
+<script>
+$('.gameArtPanel').hover(function() {
+		$(this).find('.gameIcon').show();
+        $(this).find('.gameSlides').hide();
+    }, function() {
+    	$(this).find('.gameIcon').hide();
+        $(this).find('.gameSlides').show();	
+		});
+</script>
+<script>
+var myIndex3 = 0;
+carousel3();
+function carousel3() {
+    var i3;
+    var x3 = document.getElementsByClassName("gameSlide");
+	for (i3 = 0; i3 < x3.length; i3++) {
+       x3[i3].style.display = "none";  
+    } myIndex3++;
+    if (myIndex3 > x3.length) {myIndex3 = 1}    
+    x3[myIndex3-1].style.display = "block";  
+    setTimeout(carousel3, Math.floor((Math.random() * 6000) + 6001));    
+}
+</script>
+
+
+<div class = "allArtPanel"> 
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image1.jpg" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image2.png" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image3.jpg" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image4.png" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image5.jpg" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image6.jpg" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image7.jpg" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image8.jpg" style="height:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image9.jpg" style="width:100%" alt="">
+<img class="allSlide w3-animate-fading" 
+src="Images/allArt/Image0.png" style="height:100%" alt="">
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("allSlide");
+	for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    } myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000);    
+}
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,350 @@
+@charset "utf-8";
+  
+
+html, body {
+  overflow:hidden;
+  max-height:100%;
+}
+
+.navBarHome {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	margin-left: 12.5%;
+	margin-right: 7.5%;
+	height: 10vh;
+	width: 10%;
+	float: left;
+	margin-bottom: 4vh;
+}
+.navBarHome img{
+	height: 60%;
+}
+.navBarLogo {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 10vh;
+	width: 40%;
+	float: left;
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+	margin-bottom: 4vh;
+}
+
+.navBarContact {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 10vh;
+	width: 10%;
+	margin-left: 7.5%;
+	margin-right: 12.5%;
+	float: left;
+	text-align: right;
+	margin-bottom: 4vh;
+}
+.navBarContact img{
+	height: 60%;
+}
+
+.fullArtPanel {
+	border:none;
+	overflow:hidden;
+	float: left;
+	width: 25%;
+	height: 80vh;
+	background: black;
+	margin-left: 12.5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+} 
+.fullArtPanel:hover {
+	background: #ffcc99;
+	cursor: pointer;
+} 
+.fullArtPanel:active {
+	background: #ffa25a;
+	cursor: pointer;
+} 
+.fullArtPanel:focus {outline:0;}
+.fullSlides img {
+   display:block;
+   margin:auto;
+   min-width: 100%;
+   min-height: 85vh;
+}
+.fullIcon {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	height: 40vh;
+	margin-top: 20vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	z-index: 999;
+	pointer-events: none;
+}
+
+
+.lineArtPanel {
+	border:none;
+	overflow:hidden;
+	float: left;
+	width: 25%;
+	height:  80vh;
+	background: black;
+	text-align: center;	
+   -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+} 
+.lineArtPanel:hover {
+	background: #ffcc99;
+	cursor: pointer;
+} 
+.lineArtPanel:active {
+	background: #ffa25a;
+	cursor: pointer;
+} 
+.lineArtPanel:focus {outline:0;}
+.lineSlides{
+	text-align:center
+}
+.lineSlides img {
+	display:inline-block;
+   margin-left: auto;
+    margin-right: auto;
+   min-width: 100%;
+   min-height: 85vh;
+}
+.lineIcon {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	height: 40vh;
+	margin-top: 20vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	z-index: 999;
+	pointer-events: none;
+}
+
+
+.gameArtPanel {
+	border:none;
+	overflow:hidden;
+	
+	float: left;
+	width: 25%;
+	height: 80vh;
+	background: black;
+	margin-right: 12.5%;
+	text-align: center;
+	
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+} 
+.gameArtPanel:hover {
+	background: #ffcc99;
+	cursor: pointer;
+} 
+.gameArtPanel:active {
+	background: #ffa25a;
+	cursor: pointer;
+} 
+.gameArtPanel:focus {outline:0;}
+.gameSlides img {
+   display:block;
+   margin:auto;
+   min-width: 100%;
+   min-height: 85vh;
+}
+.gameIcon {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	height: 40vh;
+	margin-top: 20vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	z-index: 999;
+	pointer-events: none;
+}
+
+.allArtPanel {
+	overflow:hidden;
+	visibility: hidden;
+	background-size:100%;
+	vertical-align: middle;
+	
+	float: left;
+	width: 75%;
+	height: 50vh;
+	background: black;
+	margin-left: 12.5%;
+	text-align: center;   
+}
+
+.artMenu {
+	border:none;
+	overflow:hidden;
+	float: left;
+	width: 15%;
+	height: 80vh;
+	margin-left: 12.5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+        -o-transition: all 0.35s ease-out;
+        -webkit-transition: all 0.35s ease-out;
+        transition: all 0.35s ease-out;
+	background: #ffcc99;
+}
+.artButton {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	border:none;
+	overflow:hidden;
+	float: left;
+	width: 100%;
+	padding: 20%;
+	height: 26.66vh;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.artButton:hover {
+	background: #ffa25a;
+}
+.artButton img{
+	border:none;
+	overflow:hidden;/Network/Servers/xsrv.local/Users/109938457/Sites/DesktopCSS.css
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;   
+}
+.artBox {
+	overflow:auto;
+	float: left;
+	width: 60%;
+	height: 80vh;
+	background: black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.thumbnail{
+	height: 25vh;
+	margin-top: 5px;
+	max-width: 50vw;
+}
+.thumbnail:hover {    
+    opacity: 0.8;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+
+.contactContact{
+	overflow:hidden;
+	float: left;
+	width: 25%;
+	height: 80vh;
+	background: black;
+	color: white;
+	margin-left: 12.5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.contactContact:hover{
+	background: #FFCC99;
+	color: black;
+	width: 50%;
+}
+.contactContact:hover + div { 
+width: 0%; 
+}
+
+.contactCommision{
+	overflow:hidden;
+	float: left;
+	width: 25%;
+	height: 80vh;
+	background: black;
+	color: white;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.contactCommision:hover{
+	background: #FFCC99;
+	color: black;
+	width: 50%
+}
+.contactCommision:hover + div { 
+width: 0%; 
+}
+
+.contactAbout{
+	
+	overflow:hidden;
+	float: left;
+	width: 25%;
+	height: 80vh;
+	background: black;
+	color: white;
+	margin-right: 12.5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.contactAbout:hover{
+	background: #FFCC99;
+	color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; font-weight: 800;
+    padding: 0px 5px 0px 5px;
+    font-size: 3.2vw;
+}
+p {
+    font-family: 'Roboto', sans-serif; font-weight: 400;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.5vw;
+}
+textarea {
+    width: 80%;	
+}
+
+.w3-animate-fading{
+	-webkit-animation:fading 5s infinite;
+	animation:fading 5s infinite
+	}
+	@-webkit-keyframes fading{
+		0%{opacity:0.01}
+		50%{opacity:0.5}
+		100%{opacity:0.01}
+	}
+	@keyframes fading{
+		0%{opacity:0.01}
+		50%{opacity:0.8}
+		100%{opacity:0.01}
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+
+<!-- Thank you for taking the time to read the source :) -->
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blambo: Art</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/site.js.txt"></script>
+<link rel="stylesheet" href="w3.css">
+<link href="DesktopCSS.css" rel="stylesheet" type="text/css">
+<link href="MobileCSS.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.css" rel="stylesheet">
+</head>
+
+<body>
+
+<a href="index.html" class="navBarHome">
+	<img src="Images/homeIcon.png" height="50%" alt="Home"/>
+</a>
+<a href="final.html" class="navBarLogo">
+	<img src="Images/lamelogo5.png" height="100%" alt="Blambo"/>
+</a>
+<a href="contact.html" class="navBarContact"> 
+	<img src="Images/contactIcon.png" alt="Contact"/>
+</a>
+
+
+
+<div class="artMenu" id="menu">
+    <a href="fullArt.html" class="artButton">
+		<img class="w3-animate-left"
+        src="Images/fullIcon.png" alt="Full Art"/>
+	</a>
+    <a href="lineArt.html" class="artButton">
+		<img class="w3-animate-left"
+        src="Images/lineIcon.png" alt=“Line Art"/>
+	</a>
+    <a href="gameArt.html" class="artButton" id="currentMenu">
+		<img 
+        src="Images/gameIcon.png" alt=“Game Art"/>
+	</a>
+</div> 
+
+<div class = "artBox w3-animate-right" id="box"> 
+	
+	<a href="Images/gameArt/Image1.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image1.gif" alt=""/></a>
+	<a href="Images/gameArt/Image1_1.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image1_1.gif" alt=""/></a>
+	<a href="Images/gameArt/Image1_2.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image1_2.gif" alt=""/></a>
+	<a href="Images/gameArt/Image2.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image2.png" alt=""/></a>
+	<a href="Images/gameArt/Image3.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image3.gif" alt=""/></a>
+	<a href="Images/gameArt/Image3_1.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image3_1.gif" alt=""/></a>
+	<a href="Images/gameArt/Image3_2.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image3_2.gif" alt=""/></a>
+	<a href="Images/gameArt/Image4.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image4.png" alt=""/></a>
+	<a href="Images/gameArt/Image4_1.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image4_1.gif" alt=""/></a>
+	<a href="Images/gameArt/Image4_2.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image4_2.gif" alt=""/></a>
+	<a href="Images/gameArt/Image5.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image5.gif" alt=""/></a>
+	<a href="Images/gameArt/Image5_1.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image5_1.gif" alt=""/></a>
+	<a href="Images/gameArt/Image6.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image6.png" alt=""/></a>
+	<a href="Images/gameArt/Image7.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image7.png" alt=""/></a>
+	<a href="Images/gameArt/Image8.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image8.png" alt=""/></a>
+	<a href="Images/gameArt/Image9.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image9.png" alt=""/></a>
+	<a href="Images/gameArt/Image11.gif" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image11.gif" alt=""/></a>
+	<a href="Images/gameArt/Image11_1.png" data-lightbox="gameArt"><img class="thumbnail" src="Images/gameArt/Image11_1.png" alt=""/></a>
+	
+</div>
+
+<script>
+setTimeout(light, 100 );
+function light() {	
+		document.getElementById("currentMenu").style.background = "#ffa25a";
+}
+</script>
+
+<script src="js/lightbox.js"></script>
+</body>
+
+</html>

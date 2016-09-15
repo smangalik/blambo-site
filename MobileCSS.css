@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+@media (max-width:600px){
+	
+.navBarHome {
+	height: 15vh;
+}
+.navBarHome img{
+	height: 50%;
+}
+ 
+.navBarLogo {
+	height: 15vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.navBarLogo img{
+	height: 8vh;
+	max-width: 100%;
+}
+
+.navBarContact {
+	height: 15vh;
+}
+.navBarContact img{
+	height: 50%;
+}
+	
+.fullArtPanel {
+	margin-left: 6.5%;
+	width: 29%;
+	height: 30vh;
+	background: #ffa25a;
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+} 
+.fullIcon {
+	display: block !important;
+	height: 50%;
+	margin-top: 8vh;
+	margin-bottom: 33%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.fullSlides{
+	display: none !important;
+}
+.artMenu{
+	margin-left: 6.5%;
+	width: 87%;
+	height: 20vh;
+	background: #ffa25a;
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.lineArtPanel {
+
+	width: 29%;
+	height: 30vh;
+	background: #ffa25a;
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.lineIcon {
+	display: block !important;
+	height: 50%;
+	margin-top: 8vh;;
+	margin-bottom: 33%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.lineSlides{
+	display: none !important;
+}
+
+.gameArtPanel {
+	margin-right: 6.5%;
+	width: 29%;
+	height: 30vh;
+	background: #ffa25a;
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+} 
+.gameIcon {
+	display: block !important;
+	height: 50%;
+	margin-top: 8vh;
+	margin-bottom: 33%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.gameSlides{
+	display: none !important;
+}
+
+.allArtPanel{
+	visibility:	visible;
+	
+	float: left;
+	width: 87%;
+	height: 45vh;
+	background: black;
+	margin-left: 6.5%;
+	text-align: center; 
+	align-content: center;
+}
+
+.allArtPanel img {
+   display:block;
+   min-width: 100%;
+   min-height: 45vh;
+}
+
+
+.artMenu {
+	border:none;
+	overflow:hidden;
+	float: left;
+	width: 87%;
+	height: 15vh;
+	margin-left: 6.5%;
+	text-align: center;  
+	background: #ffcc99;
+}
+.artButton {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	border:none;
+	overflow:hidden;
+	float: left;
+	height: 15vh;
+	width: 33.33%;
+	padding: 10%;
+	text-align: center;   
+}
+.artButton:hover {
+	background: #ffa25a;
+}
+.artButton img{
+	border:none;
+	overflow:hidden;
+	float: left;
+	height: auto;
+	width:100%;
+	text-align: center;   
+}
+.artBox {
+	overflow:auto;
+	margin-left: 6.5%;
+	float: left;
+	width: 87%;
+	height: 60vh;
+	background: black;
+}
+.thumbnail{
+	width: 31.93%;
+}
+
+.contactContact{
+	word-wrap: break-word;
+	overflow:hidden;
+	float: left;
+	width: 29%;
+	height: 75vh;
+	background: black;
+	color: white;
+	margin-left: 6.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.contactContact:hover{
+	background: #FFCC99;
+	color: black;
+	width: 58%;
+}
+.contactContact:hover + div { 
+	display:none;
+}
+
+.contactCommision{
+	word-wrap: break-word;
+	overflow:hidden;
+	float: left;
+	width: 29%;
+	height: 75vh;
+	background: black;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.contactCommision:hover{
+	background: #FFCC99;
+	color: black;
+	width: 58%
+}
+.contactCommision:hover + div { 
+	display: none;
+}
+
+.contactAbout{
+	word-wrap: break-word;
+	overflow:hidden;
+	float: left;
+	width: 29%;
+	height: 75vh;
+	background: black;
+	color: white;
+	margin-right: 6.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;   
+	-moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.contactAbout:hover{
+	background: #FFCC99;
+	color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; font-weight: 800;
+    font-size: 3.2vw;
+    padding: 0px 1px 0px 1px;
+}
+p {
+	word-wrap: break-word;
+    font-family: 'Roboto', sans-serif; font-weight: 400;
+    padding: 0px 2px 0px 2px;
+    font-size: 2vw;
+}
+
+.w3-animate-left{position:relative;	-webkit-animation:animateleft 0s;animation:animateleft 0s}
+@-webkit-keyframes animateleft{from{left:-300px;opacity:0}to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.w3-animate-right{position:relative;-webkit-animation:animateright 0s;animation:animateright 0s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+}
+

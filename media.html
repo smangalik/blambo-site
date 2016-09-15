@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blambo Art Website: Dynamic Media</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/site.js.txt"></script>
+<link href="css/lightbox.css" rel="stylesheet">
+<style>
+h3 {
+    text-decoration: underline;
+    -moz-text-decoration-color: #ffa25a; /* Code for Firefox */
+    text-decoration-color: #ffa25a; 
+}
+img {
+	height: 30vh;
+}
+</style>
+</head>
+
+<body style="background-color:#FFCC99;">
+<font size="5px">
+
+<table width="100%" border="1">
+  <tr>
+    <th scope="col"><a href="index.html">Home</a></th>
+    <th scope="col"><a href="wireframes.html">Wireframes</a></th>
+    <th scope="col"><a href="graphics.html">Graphics</a></th>
+    <th scope="col"><a href="icons.html">Icons</a></th>
+    <th scope="col"><a href="typography.html">Typography</a></th>
+    <th scope="col"><a href="media.html">D. Media</a></th>
+    <th scope="col"><a href="final.html">Final</a></th>
+  </tr>
+</table>
+
+
+<br><h3>What Dynamic Media does the site have?</h3>
+<p>As mentioned many times in the documentation, the emphasis
+on not including a lot of detailed art that was part of the
+site still needs to be retained. This meant that the only big
+candidates for dynamic behavior were the logo and the site
+icons. I ultimately decided against making either animated since
+it could very quickly be distracting with the three tandem
+slideshows that the website currently employs. The main 
+dynamic nature of the site is in the CSS animations that it
+employs and the kind of scenes and story they tell.</p>
+
+<h3>What is the narrative?</h3>
+<p>
+When the site first opens you are introduced to three panels 
+that slide into position over a black box frame. The box frame 
+is a persistent structure whose dimensions are always ultimately
+upkeep despite whatever transitions occur. Next comes the user having
+to interact with the site. The user seeing the three panels will likely
+try to interact with them and when hovering over them will see a fade 
+out to a panel of a different color. If the user finds themselves on the
+main screen for too long slideshows will begin that replace the panel 
+elements. In the selected active view the user sees their selection persist
+while the other two options come in to view from an overflow. This repetition
+of icons indicates that they will lead to the same menu that the other panels
+would have done. In the mobile view a similar approach is taken with simpler 
+animation choices that aim to distract less with what little screen real estate
+is available.
+
+<h3>Lightbox examples?</h3>
+</p>
+<a href="Images/fullArt/Image0.jpg" data-lightbox="fullArt"><img class="thumbnail" src="Images/fullArt/Image0.jpg" alt=""/></a>
+    <a href="Images/fullArt/Image1.jpg" data-lightbox="fullArt"><img class="thumbnail" src="Images/fullArt/Image1.jpg" alt="" /></a>
+    <a href="Images/fullArt/Image2.png" data-lightbox="fullArt"><img class="thumbnail" src="Images/fullArt/Image2.png" alt="" /></a>
+<p>
+
+</p>
+
+</font>
+<script src="js/lightbox.js"></script>
+</body>
+</html>
